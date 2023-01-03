@@ -13,7 +13,7 @@ public class Main {
 		
 		int[] ar = rt.t3();
 		
-		
+		// git에 올리는것
 		
 	}
 
