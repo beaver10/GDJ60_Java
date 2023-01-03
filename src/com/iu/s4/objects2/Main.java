@@ -11,7 +11,7 @@ public class Main {
 		
 		System.out.println(num);
 		
-		int[] ar = rt.t3();
+		
 		
 		
 	}
