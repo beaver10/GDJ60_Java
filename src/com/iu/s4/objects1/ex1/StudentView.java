@@ -6,14 +6,7 @@ public class StudentView {
 	public void view(Student [] students) { 
 		for(int i = 0;i<students.length;i++) {
 			Student student = students[i];
-			//system.out.println(student[i].name);
-			System.out.println("Name : "+student.name);
-			System.out.println("Num : "+student.num);
-			System.out.println("Kor : "+student.kor);
-			System.out.println("Eng : "+student.eng);
-			System.out.println("Math : "+student.math);
-			System.out.println("Total : "+student.total);
-			System.out.println("Avg : "+student.avg);
+			this.view(student);
 			
 		}
 		
