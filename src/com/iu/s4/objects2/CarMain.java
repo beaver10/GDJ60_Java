@@ -10,15 +10,15 @@ public class CarMain {
 		
 		Car c1 = new Car();
 		c1.info();
-		
-		Car c2 = new Car("black");
-		c2.info();
-		
-		Car c3 = new Car("Pink", 2500);
-		c3.info();
-		
-		Car c4 = new Car("Lemon", 5000, "레몬모루카");
-		c4.info();
+//		
+//		Car c2 = new Car("black");
+//		c2.info();
+//		
+//		Car c3 = new Car("Pink", 2500);
+//		c3.info();
+//		
+//		Car c4 = new Car("Lemon", 5000, "레몬모루카");
+//		c4.info();
 
 	}
 
