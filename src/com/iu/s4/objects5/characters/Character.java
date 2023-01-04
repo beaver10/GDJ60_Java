@@ -1,15 +1,12 @@
 package com.iu.s4.objects5.characters;
 
-public class Character {
+public abstract class Character {
 
 	private String name;
 	private int hp;
 	private int level;
 	
-	
-	public void attack() {
-		System.out.println("공격 메서드");
-	}
+	public Character() {}
 	
 	public int getLevel() {
 		return level;
