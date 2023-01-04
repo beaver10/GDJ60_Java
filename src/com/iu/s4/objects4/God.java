@@ -1,8 +1,8 @@
 package com.iu.s4.objects4;
 
-public class God {
+public final class God {
 	
-	private String name;
+	private static final String MY_NAME="";
 	
 	private static God god;
 	
@@ -20,12 +20,12 @@ public class God {
 		return God.god;//new God();
 	}
 
-	public String getName() {
-		return name;
-	}
+	//public final String getName() {
+		//return name;
+	//}
 
 	public void setName(String name) {
-		this.name = name;
+		//this.name = name;
 	}
 	
 	
